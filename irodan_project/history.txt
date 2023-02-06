@@ -1,0 +1,24 @@
+#########finds the nearest target####	
+time 0.3: 
+object number: 2 at location: -1, 10
+missile location: 3, 0
+#########target destroyed############	
+time 1: 
+object number: 2 at location: 0.212436, 10.7
+missile location: -0.0365307, 10.2821
+#########finds the nearest target####	
+time 1: 
+object number: 1 at location: -0.2, 21.3856
+missile location: -0.0365307, 10.2821
+#########target destroyed############	
+time 1.5: 
+object number: 1 at location: 0.2, 22.0785
+missile location: 0.376603, 22.3641
+#########finds the nearest target####	
+time 1.5: 
+object number: 0 at location: 1.83848, 31.8385
+missile location: 0.376603, 22.3641
+#########target destroyed############	
+time 2.3: 
+object number: 0 at location: 2.82843, 32.8284
+missile location: 2.86851, 32.8244
