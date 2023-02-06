@@ -16,7 +16,7 @@ object number 2 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 0.6
 missile parameter - location, direction, lateral acceleration: 
-(0.765231, 7.6809), (-1.09898, 3.84568), 4.97851
+(1.71928, 4.54775), (-1.15395, 4.34865), 15
 -----------------------------
 time: 0.6
 object number 0 - location, status(live = 1, hit= 0): 
@@ -32,7 +32,7 @@ object number 2 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 0.9
 missile parameter - location, direction, lateral acceleration: 
-(-0.719375, 9.32209), (-0.95981, -0.280652), 1.03519
+(-0.67058, 12.9926), (-0.0704153, -0.0166531), 15
 -----------------------------
 time: 0.9
 object number 0 - location, status(live = 1, hit= 0): 
@@ -48,7 +48,7 @@ object number 2 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 1.2
 missile parameter - location, direction, lateral acceleration: 
-(-0.400955, 12.7957), (-0.364425, 2.51355), 13.1267
+(0.444711, 10.8209), (-0.13783, 0.990456), 10.6075
 -----------------------------
 time: 1.2
 object number 0 - location, status(live = 1, hit= 0): 
@@ -60,11 +60,11 @@ object number 1 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 1.2
 object number 2 - location, status(live = 1, hit= 0): 
-(0.212436, 10.7), 0
+(0.385641, 10.8), 0
 -----------------------------
 time: 1.5
 missile parameter - location, direction, lateral acceleration: 
-(0.111483, 19.9784), (-0.136911, -0.58727), 3.36215
+(0.232317, 18.4441), (0.0613889, 0.998114), 2.8091
 -----------------------------
 time: 1.5
 object number 0 - location, status(live = 1, hit= 0): 
@@ -76,11 +76,11 @@ object number 1 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 1.5
 object number 2 - location, status(live = 1, hit= 0): 
-(0.212436, 10.7), 0
+(0.385641, 10.8), 0
 -----------------------------
 time: 1.8
 missile parameter - location, direction, lateral acceleration: 
-(1.89966, 29.9731), (0.398227, 2.34917), 6.03352
+(0.45974, 23.011), (0.429713, 2.45324), 15
 -----------------------------
 time: 1.8
 object number 0 - location, status(live = 1, hit= 0): 
@@ -88,15 +88,15 @@ object number 0 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 1.8
 object number 1 - location, status(live = 1, hit= 0): 
-(0.2, 22.0785), 0
+(0.3, 22.2517), 0
 -----------------------------
 time: 1.8
 object number 2 - location, status(live = 1, hit= 0): 
-(0.212436, 10.7), 0
+(0.385641, 10.8), 0
 -----------------------------
 time: 2.1
 missile parameter - location, direction, lateral acceleration: 
-(1.72163, 30.0508), (-0.331212, -0.943556), 2.43748
+(2.07334, 30.4223), (0.240892, 0.970552), 13.3455
 -----------------------------
 time: 2.1
 object number 0 - location, status(live = 1, hit= 0): 
@@ -104,9 +104,9 @@ object number 0 - location, status(live = 1, hit= 0):
 -----------------------------
 time: 2.1
 object number 1 - location, status(live = 1, hit= 0): 
-(0.2, 22.0785), 0
+(0.3, 22.2517), 0
 -----------------------------
 time: 2.1
 object number 2 - location, status(live = 1, hit= 0): 
-(0.212436, 10.7), 0
+(0.385641, 10.8), 0
 -----------------------------

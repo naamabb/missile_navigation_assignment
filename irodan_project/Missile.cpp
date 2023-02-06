@@ -5,7 +5,7 @@ float Missile::move(double timeStep)
 {
 	//calculate Acceleration
 	
-	Vector2f missileNext, targetNext, delta, d;
+	Vector2f missileNext, targetNext, delta, d, nDirection,v;
 
 	//min of  (V_new - V_old).norm(),  aMax*TimeStep (V_new - V_old).normalize()*(a_max)*TimeStep + v_old
 	double distance = calculateDistance(target);
@@ -17,14 +17,17 @@ float Missile::move(double timeStep)
 	
 	
 	if (delta.norm() > aMax * timeStep) {
-		direction = delta.normalized() * aMax * timeStep + direction;
+		nDirection = delta.normalized() * aMax * timeStep + direction;
+		v = delta.normalized() * aMax*timeStep;
 	}
 	else {
-		direction = d.normalized();
+		nDirection = d.normalized();
+		v = delta;
 	}
 
-	location = location + direction * speed * timeStep;
-	return delta.norm();
+	location = location + direction * speed * timeStep + 0.5*v*timeStep;
+	direction = nDirection;
+	return (v/timeStep).norm();
 
 }
 
